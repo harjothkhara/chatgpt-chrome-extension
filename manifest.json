@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "ChatGPT Tab Opener",
+  "version": "1.0",
+  "description": "Opens a new tab to chatgpt.com",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_title": "Open ChatGPT"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
